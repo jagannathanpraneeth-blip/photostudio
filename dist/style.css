@@ -76,6 +76,8 @@ dialog p{line-height:1.5}
 .gallery-card:nth-child(3n+2),.gallery-card:nth-child(3){padding-top:0}
 .gallery-wide img,.gallery-card img,.gallery-card:nth-child(3) img{display:block;width:100%;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:unset!important;object-fit:cover!important;background:transparent}
 @media(max-width:620px){.gallery-grid{gap:18px;padding-left:4vw;padding-right:4vw}.gallery-card,.gallery-wide{flex-basis:88vw}.gallery-card span{padding:14px 2px 0}}
+@media(min-width:761px) and (max-width:1200px){.gallery-card,.gallery-wide{flex-basis:min(48vw,560px)}}
+@media(min-width:1201px){.gallery-card,.gallery-wide{flex-basis:min(38vw,520px)}}
 .hero-art{isolation:isolate;transform-style:preserve-3d;min-height:560px;display:flex;align-items:center;justify-content:center;touch-action:pan-y}
 .hero-glow{position:absolute;width:78%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#ffe1a366 0,#d78c7e22 42%,transparent 70%);filter:blur(8px);transform:translateZ(-70px);pointer-events:none}
 .orbit{position:absolute;border:1px solid #9c3d5040;border-radius:50%;pointer-events:none;transform-style:preserve-3d}
